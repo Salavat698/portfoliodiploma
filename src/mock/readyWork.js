@@ -1,5 +1,6 @@
 export const readyWork = [
-    {
+    {   
+        id: 1,
         name: "Сайт для регистрации и мониторинга мероприятий на IT-полигоне",
         link: "http://t96544sc.beget.tech",
         author: ["Шахмар Абдуллаев"],
@@ -8,6 +9,7 @@ export const readyWork = [
         technology: "HTML, CSS, JavaScript, PHP, SQL"
     },
     {
+        id: 2,
         name: "Парсер Ozon'a",
         link: undefined,
         author: ["Шахмар Абдуллаев"],
@@ -16,6 +18,7 @@ export const readyWork = [
         technology: "PHP, SQL"
     },
     {
+        id: 3,
         name: "Крутой проект",
         link: undefined,
         author: ["Крутой чел"],
@@ -24,6 +27,7 @@ export const readyWork = [
         technology: "Просто крутой"
     },
     {
+        id: 4,
         name: "Крутой проект",
         link: undefined,
         author: ["Крутой чел"],
@@ -32,6 +36,7 @@ export const readyWork = [
         technology: "Просто крутой"
     },
     {
+        id: 5,
         name: "Крутой проект",
         link: undefined,
         author: ["Крутой чел"],
@@ -40,6 +45,7 @@ export const readyWork = [
         technology: "Просто крутой"
     },
     {
+        id: 6,
         name: "Крутой проект",
         link: undefined,
         author: ["Крутой чел"],
@@ -48,6 +54,7 @@ export const readyWork = [
         technology: "Просто крутой"
     },
     {
+        id: 7,
         name: "Крутой проект",
         link: undefined,
         author: ["Крутой чел"],
@@ -56,6 +63,7 @@ export const readyWork = [
         technology: "Просто крутой"
     },
     {
+        id: 8,
         name: "Крутой проект",
         link: undefined,
         author: ["Крутой чел"],
