@@ -13,10 +13,12 @@ export const ThemeContext = createContext({
 });
 
 export function ThemeWrapper(props) {
-  const [theme, setTheme] = useState(themes.light);
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || themes.light);
 
   function changeTheme(theme) {
-    setTheme(theme === themes.light ? themes.dark : themes.light);
+    const newTheme = theme === themes.light ? themes.dark : themes.light
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme)
   }
 
   useEffect(() => {

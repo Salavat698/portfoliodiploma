@@ -55,19 +55,19 @@ export const readyWorkRU = [
         technology: ["HTML", "CSS", "JavaScript", "chart.js", "slick.js"]
     },
     {
-        previewPath: "./img/projects/project-preview.png",
+        previewPath: "./img/projects/practicehub.png",
         name: "PracticeHub",
         link: undefined,
-        author: ["Плесский Илья"],
+        author: ["Плесский Илья", "Морозов Григорий", "Лобков Антон"],
         purpose: "Групповой проект",
         description: 'Сайт, на котором можно создавать и проходить курсы',
         technology: ["HTML", "CSS", "JavaScript"]
     },
     {
-        previewPath: "./img/projects/project-preview.png",
+        previewPath: "./img/projects/pymogus.png",
         name: "Pymogus",
         link: undefined,
-        author: ["Плесский Илья"],
+        author: ["Плесский Илья", "Морозов Григорий", "Лобков Антон"],
         purpose: "Групповой проект",
         description: 'Копия игры Among Us на python с использованием pygame и socket',
         technology: ["Python"]
@@ -131,19 +131,19 @@ export const readyWorkEn = [
         technology: ["HTML", "CSS", "JavaScript", "chart.js", "slick.js"]
     },
     {
-        previewPath: "./img/projects/project-preview.png",
+        previewPath: "./img/projects/practicehub.png",
         name: "PracticeHub",
         link: undefined,
-        author: ["Plessky Ilya"],
+        author: ["Plessky Ilya", "Morozov Grigory", "Lobkov Anton"],
         purpose: "Group project",
         description: 'A site where you can create and take courses',
         technology: ["HTML", "CSS", "JavaScript"]
     },
     {
-        previewPath: "./img/projects/project-preview.png",
+        previewPath: "./img/projects/pymogus.png",
         name: "Pymogus",
         link: undefined,
-        author: ["Plessky Ilya"],
+        author: ["Plessky Ilya", "Morozov Grigory", "Lobkov Anton"],
         purpose: "Group project",
         description: 'A copy of Among Us in python using pygame and socket',
         technology: ["Python"]

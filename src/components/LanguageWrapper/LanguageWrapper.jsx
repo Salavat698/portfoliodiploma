@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { createContext } from "react";
 import { IntlProvider } from "react-intl";
 import russian from '../../lang/ru.json';
 import english from '../../lang/en.json';
 
-let localeInit = navigator.language;
+let localeInit = localStorage.getItem('lang') || navigator.language;
 let langInit;
 if (localeInit.startsWith('en')) {
   langInit = english;
@@ -36,6 +36,7 @@ export function LanguageWrapper(props) {
     } else if (newLocale === 'ru') {
         setMessages(russian);
     }
+    localStorage.setItem('lang', newLocale)
   }
 
   return (

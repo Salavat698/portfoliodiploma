@@ -85,6 +85,11 @@
   padding: 23px;
   width: 100%;
   color: var(--fontSpecialColor);
+  transition: filter .1s ease-in;
+}
+
+.submitButton:hover {
+  filter: brightness(0.75);
 }
 
 .closeButton {
@@ -129,10 +134,6 @@
 @media(max-width: 540px) {
   .formTitle {
       font-size: 2.4rem;
-  }
-
-  .forInput {
-    grid-template-columns: ;
   }
 }
 
