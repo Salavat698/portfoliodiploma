@@ -28,15 +28,26 @@ function Projects(props) {
   const readyWork = (useContext(LanguageContext).locale === 'en') ? readyWorkEn : readyWorkRU
 
   const [count, setCount] = useState(2);
+  const [searchKey, setSearchKey] = useState('')
   const worksCount = readyWork.length;
-  const visibleWorks = addWorks(readyWork, count);
+  const visibleWorks = addWorks(readyWork, count).filter(w=>{
+    return w.name.toLowerCase().includes(searchKey.toLowerCase())
+  });
   return (
     <>
       <Header path="projects" />
       <Suspense fallback={<LazyLoading/>}>
       <div className={styles.block}>
       <div className={styles.projectsHeader}>
-        <h1 className={styles.title}><FormattedMessage id="prjects.title"/></h1>
+        <h2 className={styles.title}>Наши проекты</h2>
+        <div className={styles.searchForm}>
+          <input className={styles.search} id="search" type="text" onChange={(e) => {setSearchKey(e.target.value.toLowerCase())}}/>
+          <label htmlFor="search">
+            <div className={styles.imgBlock}>
+              <img src={search} alt=""/>
+            </div>
+          </label>
+        </div>
       </div>
         <div className={styles.prjectsBlock}>
           {visibleWorks.map((val) => {

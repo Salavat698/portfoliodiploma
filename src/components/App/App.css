@@ -5,7 +5,6 @@
 body {
   background-color: var(--bgMainColor);
   min-height: 100vh;
-  min-width: 100vw;
 }
 
 @font-face {
@@ -20,9 +19,7 @@ body {
 }
 
 .wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  min-height: 85vh;
 }
 
 @media (max-width: 1000px) {

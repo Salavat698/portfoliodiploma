@@ -13,6 +13,7 @@
 
 .footer {
   margin-top: 4rem;
+  max-height: 15vh;
   padding: 10px;
   display: flex;
   justify-content: space-between;
