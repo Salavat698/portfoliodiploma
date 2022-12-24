@@ -19,9 +19,7 @@ body {
 }
 
 .wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  min-height: 85vh;
 }
 
 @media (max-width: 1000px) {

@@ -82,6 +82,7 @@ function Team(props) {
     infinite: true,
     nextArrow: SampleNextArrow({ styles: styles, img_light: nextarr, img_dark: nextarrDark }),
     prevArrow: SamplePrevArrow({ styles: styles, img_light: prevarr, img_dark: prevarrDark }),
+    draggable: true
   };
 
   const segment_pos_and_width = {

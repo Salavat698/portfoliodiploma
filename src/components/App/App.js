@@ -12,14 +12,12 @@ function App() {
       <ThemeWrapper>
         <div className="App">
           <div className="wrap">
-          <div>
           <Routes>
             <Route index element={<Main />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
           </div>
           <Footer />
-          </div>
         </div>
       </ThemeWrapper>
     </BrowserRouter>
